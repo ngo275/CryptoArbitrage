@@ -13,6 +13,7 @@
 		0E75E22D1F7F906800E1467E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E75E22C1F7F906800E1467E /* Assets.xcassets */; };
 		0E75E2301F7F906800E1467E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E75E22E1F7F906800E1467E /* LaunchScreen.storyboard */; };
 		0E75E23B1F7F906800E1467E /* CryptoArbitrageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E75E23A1F7F906800E1467E /* CryptoArbitrageTests.swift */; };
+		0E75E2481F7F942900E1467E /* NotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E75E2471F7F942900E1467E /* NotificationUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		0E75E2361F7F906800E1467E /* CryptoArbitrageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CryptoArbitrageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E75E23A1F7F906800E1467E /* CryptoArbitrageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoArbitrageTests.swift; sourceTree = "<group>"; };
 		0E75E23C1F7F906800E1467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E75E2451F7F90BB00E1467E /* CryptoArbitrage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CryptoArbitrage.entitlements; sourceTree = "<group>"; };
+		0E75E2471F7F942900E1467E /* NotificationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUtil.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		0E75E2241F7F906800E1467E /* CryptoArbitrage */ = {
 			isa = PBXGroup;
 			children = (
+				0E75E2461F7F940D00E1467E /* Utils */,
+				0E75E2451F7F90BB00E1467E /* CryptoArbitrage.entitlements */,
 				0E75E2251F7F906800E1467E /* AppDelegate.swift */,
 				0E75E2271F7F906800E1467E /* ViewController.swift */,
 				0E75E2291F7F906800E1467E /* Main.storyboard */,
@@ -94,6 +99,14 @@
 				0E75E23C1F7F906800E1467E /* Info.plist */,
 			);
 			path = CryptoArbitrageTests;
+			sourceTree = "<group>";
+		};
+		0E75E2461F7F940D00E1467E /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0E75E2471F7F942900E1467E /* NotificationUtil.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +160,14 @@
 					0E75E2211F7F906800E1467E = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					0E75E2351F7F906800E1467E = {
 						CreatedOnToolsVersion = 9.0;
@@ -201,6 +222,7 @@
 			files = (
 				0E75E2281F7F906800E1467E /* ViewController.swift in Sources */,
 				0E75E2261F7F906800E1467E /* AppDelegate.swift in Sources */,
+				0E75E2481F7F942900E1467E /* NotificationUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,9 +375,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CryptoArbitrage/CryptoArbitrage.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NAJPYUJBUB;
 				INFOPLIST_FILE = CryptoArbitrage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.shuichi.CryptoArbitrage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -368,9 +392,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = CryptoArbitrage/CryptoArbitrage.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NAJPYUJBUB;
 				INFOPLIST_FILE = CryptoArbitrage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.shuichi.CryptoArbitrage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
