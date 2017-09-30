@@ -14,6 +14,8 @@
 		0E75E2301F7F906800E1467E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E75E22E1F7F906800E1467E /* LaunchScreen.storyboard */; };
 		0E75E23B1F7F906800E1467E /* CryptoArbitrageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E75E23A1F7F906800E1467E /* CryptoArbitrageTests.swift */; };
 		0E75E2481F7F942900E1467E /* NotificationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E75E2471F7F942900E1467E /* NotificationUtil.swift */; };
+		58327646C1BC266C490F14B1 /* Pods_CryptoArbitrageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470F36B85A6F7E640BD4F8EA /* Pods_CryptoArbitrageTests.framework */; };
+		6FB275793B3B6CEF0BEB6210 /* Pods_CryptoArbitrage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86F796B1666BA4AE897E164A /* Pods_CryptoArbitrage.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0007161D4274B0A726DADC1C /* Pods-CryptoArbitrage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoArbitrage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoArbitrage/Pods-CryptoArbitrage.debug.xcconfig"; sourceTree = "<group>"; };
 		0E75E2221F7F906800E1467E /* CryptoArbitrage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoArbitrage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E75E2251F7F906800E1467E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E75E2271F7F906800E1467E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +42,11 @@
 		0E75E23C1F7F906800E1467E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E75E2451F7F90BB00E1467E /* CryptoArbitrage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CryptoArbitrage.entitlements; sourceTree = "<group>"; };
 		0E75E2471F7F942900E1467E /* NotificationUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationUtil.swift; sourceTree = "<group>"; };
+		176340FFA6F1E5EDB8610FBA /* Pods-CryptoArbitrageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoArbitrageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoArbitrageTests/Pods-CryptoArbitrageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		470F36B85A6F7E640BD4F8EA /* Pods_CryptoArbitrageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoArbitrageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C6725BA3E2F6080F5E6A80 /* Pods-CryptoArbitrageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoArbitrageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoArbitrageTests/Pods-CryptoArbitrageTests.release.xcconfig"; sourceTree = "<group>"; };
+		86F796B1666BA4AE897E164A /* Pods_CryptoArbitrage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoArbitrage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E8BBBA0466B5379A2A7C1AA /* Pods-CryptoArbitrage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoArbitrage.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoArbitrage/Pods-CryptoArbitrage.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FB275793B3B6CEF0BEB6210 /* Pods_CryptoArbitrage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58327646C1BC266C490F14B1 /* Pods_CryptoArbitrageTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +75,8 @@
 				0E75E2241F7F906800E1467E /* CryptoArbitrage */,
 				0E75E2391F7F906800E1467E /* CryptoArbitrageTests */,
 				0E75E2231F7F906800E1467E /* Products */,
+				9AC32B1BF18D49F7E16A8F75 /* Pods */,
+				F43748B8A7E8D19F7E7D13F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +121,26 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		9AC32B1BF18D49F7E16A8F75 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0007161D4274B0A726DADC1C /* Pods-CryptoArbitrage.debug.xcconfig */,
+				9E8BBBA0466B5379A2A7C1AA /* Pods-CryptoArbitrage.release.xcconfig */,
+				176340FFA6F1E5EDB8610FBA /* Pods-CryptoArbitrageTests.debug.xcconfig */,
+				69C6725BA3E2F6080F5E6A80 /* Pods-CryptoArbitrageTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F43748B8A7E8D19F7E7D13F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86F796B1666BA4AE897E164A /* Pods_CryptoArbitrage.framework */,
+				470F36B85A6F7E640BD4F8EA /* Pods_CryptoArbitrageTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -116,9 +148,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E75E23F1F7F906800E1467E /* Build configuration list for PBXNativeTarget "CryptoArbitrage" */;
 			buildPhases = (
+				6788E8479E58D2F4B8334EC6 /* [CP] Check Pods Manifest.lock */,
 				0E75E21E1F7F906800E1467E /* Sources */,
 				0E75E21F1F7F906800E1467E /* Frameworks */,
 				0E75E2201F7F906800E1467E /* Resources */,
+				A5B288FBD2290989C0A054E4 /* [CP] Embed Pods Frameworks */,
+				70DA1C3E656D01A26A8C68A3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E75E2421F7F906800E1467E /* Build configuration list for PBXNativeTarget "CryptoArbitrageTests" */;
 			buildPhases = (
+				D6776413780C697E0B3D0A03 /* [CP] Check Pods Manifest.lock */,
 				0E75E2321F7F906800E1467E /* Sources */,
 				0E75E2331F7F906800E1467E /* Frameworks */,
 				0E75E2341F7F906800E1467E /* Resources */,
+				42055CC0FE58FEE427483515 /* [CP] Embed Pods Frameworks */,
+				C6DA2F46D36E229615A9972F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,6 +252,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42055CC0FE58FEE427483515 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoArbitrageTests/Pods-CryptoArbitrageTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoArbitrageTests/Pods-CryptoArbitrageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6788E8479E58D2F4B8334EC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoArbitrage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70DA1C3E656D01A26A8C68A3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoArbitrage/Pods-CryptoArbitrage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5B288FBD2290989C0A054E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoArbitrage/Pods-CryptoArbitrage-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
+				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/DBAlertController/DBAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/Himotoki/Himotoki.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
+				"${BUILT_PRODUCTS_DIR}/PINRemoteImage/PINRemoteImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DBAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Himotoki.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINRemoteImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoArbitrage/Pods-CryptoArbitrage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6DA2F46D36E229615A9972F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CryptoArbitrageTests/Pods-CryptoArbitrageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6776413780C697E0B3D0A03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CryptoArbitrageTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0E75E21E1F7F906800E1467E /* Sources */ = {
@@ -373,6 +558,7 @@
 		};
 		0E75E2401F7F906800E1467E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0007161D4274B0A726DADC1C /* Pods-CryptoArbitrage.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CryptoArbitrage/CryptoArbitrage.entitlements;
@@ -390,6 +576,7 @@
 		};
 		0E75E2411F7F906800E1467E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E8BBBA0466B5379A2A7C1AA /* Pods-CryptoArbitrage.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CryptoArbitrage/CryptoArbitrage.entitlements;
@@ -407,6 +594,7 @@
 		};
 		0E75E2431F7F906800E1467E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176340FFA6F1E5EDB8610FBA /* Pods-CryptoArbitrageTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -424,6 +612,7 @@
 		};
 		0E75E2441F7F906800E1467E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C6725BA3E2F6080F5E6A80 /* Pods-CryptoArbitrageTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

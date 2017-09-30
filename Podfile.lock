@@ -1,0 +1,113 @@
+PODS:
+  - APIKit (3.1.1):
+    - Result (~> 3.0)
+  - BarcodeScanner (3.0.0)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - DBAlertController (0.3.0)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.21)
+    - FBSDKShareKit (~> 4.21)
+  - FBSDKCoreKit (4.27.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.27.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.27.0):
+    - FBSDKCoreKit
+  - FLAnimatedImage (1.0.12)
+  - Hero (0.3.6)
+  - Himotoki (3.1.0)
+  - lottie-ios (2.1.3)
+  - NVActivityIndicatorView (4.0.0):
+    - NVActivityIndicatorView/Presenter (= 4.0.0)
+  - NVActivityIndicatorView/Presenter (4.0.0)
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - Result (3.2.4)
+  - RxBlocking (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxCocoa (3.6.1):
+    - RxSwift (~> 3.6)
+  - RxSwift (3.6.1)
+  - RxTest (3.6.1):
+    - RxSwift (~> 3.6)
+
+DEPENDENCIES:
+  - APIKit (~> 3.1)
+  - BarcodeScanner
+  - DBAlertController (from `https://github.com/dbettermann/DBAlertController.git`, branch `swift3`)
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare (from `https://github.com/1amageek/facebook-sdk-swift`)
+  - Hero
+  - Himotoki
+  - lottie-ios
+  - NVActivityIndicatorView
+  - PINRemoteImage
+  - RxBlocking (~> 3.6)
+  - RxCocoa (~> 3.6)
+  - RxSwift (~> 3.6)
+  - RxTest (~> 3.6)
+
+EXTERNAL SOURCES:
+  DBAlertController:
+    :branch: swift3
+    :git: https://github.com/dbettermann/DBAlertController.git
+  FacebookShare:
+    :git: https://github.com/1amageek/facebook-sdk-swift
+
+CHECKOUT OPTIONS:
+  DBAlertController:
+    :commit: 85f088926747e86772563760c630d7df61358515
+    :git: https://github.com/dbettermann/DBAlertController.git
+  FacebookShare:
+    :commit: 3ac76c770e9849285c380f380309d866911d2e93
+    :git: https://github.com/1amageek/facebook-sdk-swift
+
+SPEC CHECKSUMS:
+  APIKit: 7460983f490d3bde6aaaaa4164d18c9865a6f91d
+  BarcodeScanner: 4ba61e8b2d50da7b17685085d4bb8e1a0c14613e
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  DBAlertController: 41e572464dfdedf4209283966da1bfbb0a5aabe4
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: d086f7a4610bbbca9cec5e774de450a9b3e1a20b
+  FBSDKCoreKit: ebc6c5f5b3f0e72396041050e2266781a38ac587
+  FBSDKLoginKit: 887be4b7452e1c5a3cc4485ce152529965a0c41e
+  FBSDKShareKit: 4f83956d4ca2960730fe7588a168eb8d535c06dc
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  Hero: d3c6f4dd80cdcdbb339be64e57ae3b5c3ab9938c
+  Himotoki: b09643fa5456d49bda43d0fb4e30dfa79e37f72f
+  lottie-ios: 8c150606598931621e927377f1426d2d3e99282d
+  NVActivityIndicatorView: 54c9b93b6f25a4f467512680c0c90c09a1095cf2
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  RxBlocking: 4f4bd5732e8b952e54ae8a57739bcfb645de12bc
+  RxCocoa: 84a08739ab186248c7f31ce4ee92d6f8a947d690
+  RxSwift: f9de85ea20cd2f7716ee5409fc13523dc638e4e4
+  RxTest: 1d00348a7848c91ab5bf5d197d2378aa6b2bb356
+
+PODFILE CHECKSUM: 1f6ed20cf99f04421a3d975a1601e90bd3a806fc
+
+COCOAPODS: 1.3.1
