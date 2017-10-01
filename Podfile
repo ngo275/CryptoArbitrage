@@ -6,25 +6,18 @@ target 'CryptoArbitrage' do
   use_frameworks!
 
   # Pods for CryptoArbitrage
-  pod 'RxSwift',    '~> 3.6'
-  pod 'RxCocoa',    '~> 3.6'
-  pod 'APIKit', '~> 3.1'
+  pod 'RxSwift',    '~> 4.0.0-beta.0'
+  pod 'RxCocoa',    '~> 4.0.0-beta.0'
+  pod 'APIKit', '~> 3'
   pod 'Himotoki'
-  pod 'FacebookCore'
-  pod 'FacebookLogin'
-  pod 'FacebookShare', :git => 'https://github.com/1amageek/facebook-sdk-swift'
-  pod 'Hero'
   pod 'PINRemoteImage'
   pod 'NVActivityIndicatorView'
-  pod 'BarcodeScanner'
   pod 'DBAlertController', :git => 'https://github.com/dbettermann/DBAlertController.git', branch: 'swift3'
   pod 'lottie-ios'
 
   target 'CryptoArbitrageTests' do
     inherit! :search_paths
     # Pods for testing
-    pod 'RxBlocking', '~> 3.6'
-    pod 'RxTest',     '~> 3.6'
   end
 
 end

@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E1B1FD21F7FEE2100C263F5 /* Session+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B1FD11F7FEE2100C263F5 /* Session+Extension.swift */; };
+		0E1B1FDA1F7FF00A00C263F5 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B1FD91F7FF00A00C263F5 /* APIManager.swift */; };
+		0E1B1FDC1F7FF03500C263F5 /* GatecoinRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B1FDB1F7FF03500C263F5 /* GatecoinRequest.swift */; };
+		0E1B1FDE1F7FF0C000C263F5 /* GatecoinTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B1FDD1F7FF0C000C263F5 /* GatecoinTicker.swift */; };
+		0E1B1FE21F7FF1A000C263F5 /* GetGatecoinTickerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B1FE11F7FF1A000C263F5 /* GetGatecoinTickerRequest.swift */; };
+		0E1B1FE51F7FF2F800C263F5 /* TickerType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B1FE41F7FF2F800C263F5 /* TickerType.swift */; };
+		0E22ACDA1F811D5600060A14 /* BitfinexTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22ACD91F811D5600060A14 /* BitfinexTicker.swift */; };
+		0E22ACDD1F811FBD00060A14 /* BitfinexRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22ACDC1F811FBD00060A14 /* BitfinexRequest.swift */; };
+		0E22ACDF1F811FCF00060A14 /* GetBitfinexTickerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22ACDE1F811FCF00060A14 /* GetBitfinexTickerRequest.swift */; };
+		0E22ACE11F81230F00060A14 /* HimotokiTransformerUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E22ACE01F81230F00060A14 /* HimotokiTransformerUtil.swift */; };
+		0E3FDB101F8087B800CE8F02 /* TickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3FDB0F1F8087B800CE8F02 /* TickerViewModel.swift */; };
+		0E3FDB131F80C09000CE8F02 /* KrakenRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3FDB121F80C09000CE8F02 /* KrakenRequest.swift */; };
+		0E3FDB151F80C09F00CE8F02 /* GetKrakenTickerRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3FDB141F80C09F00CE8F02 /* GetKrakenTickerRequest.swift */; };
+		0E3FDB171F80C19600CE8F02 /* KrakenTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3FDB161F80C19600CE8F02 /* KrakenTicker.swift */; };
 		0E75E2261F7F906800E1467E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E75E2251F7F906800E1467E /* AppDelegate.swift */; };
 		0E75E2281F7F906800E1467E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E75E2271F7F906800E1467E /* ViewController.swift */; };
 		0E75E22B1F7F906800E1467E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E75E2291F7F906800E1467E /* Main.storyboard */; };
@@ -30,6 +44,21 @@
 
 /* Begin PBXFileReference section */
 		0007161D4274B0A726DADC1C /* Pods-CryptoArbitrage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoArbitrage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoArbitrage/Pods-CryptoArbitrage.debug.xcconfig"; sourceTree = "<group>"; };
+		0E1B1FD11F7FEE2100C263F5 /* Session+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Session+Extension.swift"; sourceTree = "<group>"; };
+		0E1B1FD31F7FEE9800C263F5 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		0E1B1FD91F7FF00A00C263F5 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		0E1B1FDB1F7FF03500C263F5 /* GatecoinRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatecoinRequest.swift; sourceTree = "<group>"; };
+		0E1B1FDD1F7FF0C000C263F5 /* GatecoinTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatecoinTicker.swift; sourceTree = "<group>"; };
+		0E1B1FE11F7FF1A000C263F5 /* GetGatecoinTickerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGatecoinTickerRequest.swift; sourceTree = "<group>"; };
+		0E1B1FE41F7FF2F800C263F5 /* TickerType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickerType.swift; sourceTree = "<group>"; };
+		0E22ACD91F811D5600060A14 /* BitfinexTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitfinexTicker.swift; sourceTree = "<group>"; };
+		0E22ACDC1F811FBD00060A14 /* BitfinexRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitfinexRequest.swift; sourceTree = "<group>"; };
+		0E22ACDE1F811FCF00060A14 /* GetBitfinexTickerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetBitfinexTickerRequest.swift; sourceTree = "<group>"; };
+		0E22ACE01F81230F00060A14 /* HimotokiTransformerUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimotokiTransformerUtil.swift; sourceTree = "<group>"; };
+		0E3FDB0F1F8087B800CE8F02 /* TickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TickerViewModel.swift; path = CryptoArbitrage/ViewModels/TickerViewModel.swift; sourceTree = SOURCE_ROOT; };
+		0E3FDB121F80C09000CE8F02 /* KrakenRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrakenRequest.swift; sourceTree = "<group>"; };
+		0E3FDB141F80C09F00CE8F02 /* GetKrakenTickerRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetKrakenTickerRequest.swift; sourceTree = "<group>"; };
+		0E3FDB161F80C19600CE8F02 /* KrakenTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrakenTicker.swift; sourceTree = "<group>"; };
 		0E75E2221F7F906800E1467E /* CryptoArbitrage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoArbitrage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E75E2251F7F906800E1467E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0E75E2271F7F906800E1467E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +98,85 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E1B1FD01F7FEE0100C263F5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E1B1FD11F7FEE2100C263F5 /* Session+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0E1B1FD41F7FEFB800C263F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E1B1FDD1F7FF0C000C263F5 /* GatecoinTicker.swift */,
+				0E3FDB161F80C19600CE8F02 /* KrakenTicker.swift */,
+				0E22ACD91F811D5600060A14 /* BitfinexTicker.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0E1B1FD51F7FEFC600C263F5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0E3FDB0F1F8087B800CE8F02 /* TickerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0E1B1FD61F7FEFCD00C263F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E1B1FD71F7FEFE100C263F5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0E1B1FE41F7FF2F800C263F5 /* TickerType.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0E1B1FD81F7FEFE900C263F5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				0E22ACDB1F811F9400060A14 /* Bitfinex */,
+				0E3FDB111F80C07900CE8F02 /* Kraken */,
+				0E1B1FE31F7FF1C800C263F5 /* Gatecoin */,
+				0E1B1FD91F7FF00A00C263F5 /* APIManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		0E1B1FE31F7FF1C800C263F5 /* Gatecoin */ = {
+			isa = PBXGroup;
+			children = (
+				0E1B1FDB1F7FF03500C263F5 /* GatecoinRequest.swift */,
+				0E1B1FE11F7FF1A000C263F5 /* GetGatecoinTickerRequest.swift */,
+			);
+			path = Gatecoin;
+			sourceTree = "<group>";
+		};
+		0E22ACDB1F811F9400060A14 /* Bitfinex */ = {
+			isa = PBXGroup;
+			children = (
+				0E22ACDC1F811FBD00060A14 /* BitfinexRequest.swift */,
+				0E22ACDE1F811FCF00060A14 /* GetBitfinexTickerRequest.swift */,
+			);
+			path = Bitfinex;
+			sourceTree = "<group>";
+		};
+		0E3FDB111F80C07900CE8F02 /* Kraken */ = {
+			isa = PBXGroup;
+			children = (
+				0E3FDB121F80C09000CE8F02 /* KrakenRequest.swift */,
+				0E3FDB141F80C09F00CE8F02 /* GetKrakenTickerRequest.swift */,
+			);
+			path = Kraken;
+			sourceTree = "<group>";
+		};
 		0E75E2191F7F906800E1467E = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +200,12 @@
 		0E75E2241F7F906800E1467E /* CryptoArbitrage */ = {
 			isa = PBXGroup;
 			children = (
+				0E1B1FD81F7FEFE900C263F5 /* API */,
+				0E1B1FD71F7FEFE100C263F5 /* Protocols */,
+				0E1B1FD61F7FEFCD00C263F5 /* Views */,
+				0E1B1FD51F7FEFC600C263F5 /* ViewModels */,
+				0E1B1FD41F7FEFB800C263F5 /* Models */,
+				0E1B1FD01F7FEE0100C263F5 /* Extensions */,
 				0E75E2461F7F940D00E1467E /* Utils */,
 				0E75E2451F7F90BB00E1467E /* CryptoArbitrage.entitlements */,
 				0E75E2251F7F906800E1467E /* AppDelegate.swift */,
@@ -100,6 +214,7 @@
 				0E75E22C1F7F906800E1467E /* Assets.xcassets */,
 				0E75E22E1F7F906800E1467E /* LaunchScreen.storyboard */,
 				0E75E2311F7F906800E1467E /* Info.plist */,
+				0E1B1FD31F7FEE9800C263F5 /* Bridging-Header.h */,
 			);
 			path = CryptoArbitrage;
 			sourceTree = "<group>";
@@ -117,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				0E75E2471F7F942900E1467E /* NotificationUtil.swift */,
+				0E22ACE01F81230F00060A14 /* HimotokiTransformerUtil.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -317,17 +433,8 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CryptoArbitrage/Pods-CryptoArbitrage-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/APIKit/APIKit.framework",
-				"${BUILT_PRODUCTS_DIR}/BarcodeScanner/BarcodeScanner.framework",
-				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
 				"${BUILT_PRODUCTS_DIR}/DBAlertController/DBAlertController.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
 				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
-				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
-				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
-				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
-				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
 				"${BUILT_PRODUCTS_DIR}/Himotoki/Himotoki.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
@@ -340,17 +447,8 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/APIKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BarcodeScanner.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DBAlertController.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Himotoki.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
@@ -406,7 +504,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E75E2281F7F906800E1467E /* ViewController.swift in Sources */,
+				0E3FDB131F80C09000CE8F02 /* KrakenRequest.swift in Sources */,
+				0E3FDB151F80C09F00CE8F02 /* GetKrakenTickerRequest.swift in Sources */,
+				0E1B1FDE1F7FF0C000C263F5 /* GatecoinTicker.swift in Sources */,
+				0E3FDB171F80C19600CE8F02 /* KrakenTicker.swift in Sources */,
 				0E75E2261F7F906800E1467E /* AppDelegate.swift in Sources */,
+				0E1B1FDC1F7FF03500C263F5 /* GatecoinRequest.swift in Sources */,
+				0E1B1FE51F7FF2F800C263F5 /* TickerType.swift in Sources */,
+				0E1B1FDA1F7FF00A00C263F5 /* APIManager.swift in Sources */,
+				0E1B1FE21F7FF1A000C263F5 /* GetGatecoinTickerRequest.swift in Sources */,
+				0E1B1FD21F7FEE2100C263F5 /* Session+Extension.swift in Sources */,
+				0E3FDB101F8087B800CE8F02 /* TickerViewModel.swift in Sources */,
+				0E22ACDD1F811FBD00060A14 /* BitfinexRequest.swift in Sources */,
+				0E22ACDF1F811FCF00060A14 /* GetBitfinexTickerRequest.swift in Sources */,
+				0E22ACE11F81230F00060A14 /* HimotokiTransformerUtil.swift in Sources */,
+				0E22ACDA1F811D5600060A14 /* BitfinexTicker.swift in Sources */,
 				0E75E2481F7F942900E1467E /* NotificationUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +681,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.shuichi.CryptoArbitrage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -587,6 +700,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.shuichi.CryptoArbitrage;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/$(PROJECT)/Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

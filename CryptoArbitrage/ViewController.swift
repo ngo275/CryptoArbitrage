@@ -10,10 +10,15 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    let vm = TickerViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         NotificationUtil.authorize()
+        vm.fetchGatecoinTicker()
+        vm.fetchKrakenTicker()
+        vm.fetchBitfinexTicker()
     }
 
 }
