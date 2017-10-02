@@ -23,13 +23,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func application(_ application: UIApplication, performFetchWithCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        vm.fetchGatecoinTicker()
-        vm.fetchKrakenTicker()
-        vm.fetchBitfinexTicker()
+        vm.fetchTickers()
+        // 5秒寝かす
+        usleep(8000000)
+        var message = vm.getMessage()
+        message = vm.getMessage()
+        NotificationUtil.alert(title: "チャンスですぞ", message: message)
         
-        NotificationUtil.alert()
-        
-        completionHandler(.noData)
+        completionHandler(.newData)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -55,4 +56,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
 }
-

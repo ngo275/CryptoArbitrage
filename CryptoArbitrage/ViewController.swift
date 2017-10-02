@@ -16,9 +16,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         NotificationUtil.authorize()
-        vm.fetchGatecoinTicker()
-        vm.fetchKrakenTicker()
-        vm.fetchBitfinexTicker()
+//        vm.fetchGatecoinTicker()
+//        vm.fetchKrakenTicker()
+//        vm.fetchBitfinexTicker()
     }
 
 }

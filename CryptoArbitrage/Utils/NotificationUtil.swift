@@ -11,11 +11,11 @@ import UserNotifications
 
 class NotificationUtil {
     
-    static func alert() {
+    static func alert(title: String, message: String) {
         let center = UNUserNotificationCenter.current()
         let content = UNMutableNotificationContent()
-        content.title = "test"
-        content.body = "testtest"
+        content.title = title
+        content.body = message
         content.categoryIdentifier = "alarm"
         content.userInfo = ["url": "deeplink"]
         content.sound = UNNotificationSound.default()
